@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #fff;
+  margin: 0;
+}
+
+.masthead {
+  height: auto;
+  width: 100%;
+  background-color: #d05c2e;
+  text-align: center;
+  max-width: 650px;
+  min-width: 320px;
+}
+
+h1 {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  /* display: inline-block; */
+  width: 40px;
+  padding: .5em 0 0;
+}
+
+nav {
+  text-align: center;
+  /* width: 100%; */
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-top: 1px solid #a63f38;
+}
+
+ul li {
+  display: inline-block;
+  width: 33%;
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.125rem;
+  text-decoration: none;
+  padding: .4rem;
+  margin: 0;
+}
+
+ul li:hover {
+  background-color: #a63f38;
+}
+
+.leftgrain {
+  float: left;
+}
+
+.rightgrain {
+  float: right;
+}
+
+.home {
+  float: left;
+  border-right: 1px solid #a63f38;
+}
+
+.cereals {
+
+}
+
+.legumes {
+  float: right;
+  border-left: 1px solid #a63f38;
+}
